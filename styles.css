@@ -1,0 +1,10 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px black solid;
+}
+
+#results{
+    margin-left: 17px;
+}
+
