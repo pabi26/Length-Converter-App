@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -19,11 +20,12 @@ body{
 
 button{
     font-size: 1.1rem;
+    width: 150px;
     padding: 6px;
     border: none;
     border-radius: 5px;
     color: black;
-    margin: 0px 5px;
+    margin: 5px 5px;
 }
 
 h1{
@@ -37,4 +39,16 @@ select{
     color:black;
     font-size: 1rem;
     padding: 5px;
+}
+
+select{
+    width: 209px;
+    margin-left: 53px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#input-number,
+#results-div{
+    margin-right: 50px;
 }
